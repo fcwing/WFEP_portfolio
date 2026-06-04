@@ -38,7 +38,7 @@ export default function Navbar() {
 
   return (
     <header className={`site-header ${scrolled ? "site-header--scrolled" : ""}`}>
-      <div className="navbar">
+      {/* <div className="navbar">
         <nav className="navbar__inner" aria-label="Main navigation">
           <a
             href="#home"
@@ -97,7 +97,7 @@ export default function Navbar() {
             </ul>
           </div>
         </nav>
-      </div>
+      </div> */}
 
       <SectionNav />
     </header>
